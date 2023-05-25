@@ -9,7 +9,7 @@ function App() {
  
   const [input,setInput]=useState("")
   const [states,setStates]=useState([])
-  const [timeRemaining,setTimeRemaining]=useState(600)
+  const [timeRemaining,setTimeRemaining]=useState(10)
   const [count,setCount]=useState(false)
   const [finished,setFinished]=useState(false)
   
@@ -67,7 +67,7 @@ function App() {
       {finished ? 
       <div className="app">
       {missedStates.length>0 ? 
-      <div><h1>You missed</h1>{missedStates.map((state)=><State state={state}/>)} 
+      <div><h1>You missed {missedStates.length} state{missedStates.length===1 ? null : "s"}</h1>{missedStates.map((state)=><State state={state}/>)} 
       </div>: <h1>Wooooo!!!!! You did it!!!</h1>}
   </div>:
     <div> 

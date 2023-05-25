@@ -12,6 +12,7 @@
 }
 
 .state{
+  background-color:darkgoldenrod;
   text-align:center;
   font-size:15px;
   border:1px;
@@ -21,7 +22,7 @@
   display: inline-block;
   width:150px;
   height:50px;
-  margin-top:5px
+  margin:5px;
 }
 
 .app{
