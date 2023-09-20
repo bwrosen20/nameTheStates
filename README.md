@@ -1,7 +1,7 @@
 Remember that Friends episode where they have to name all 50 states in 10 minutes?
 I made it a little easier.
 
-![image](https://github.com/bwrosen20/nameTheStates/assets/114421657/dfee4c21-95bb-4ebe-af34-5ac9b4bef066)
+![image](https://github.com/bwrosen20/nameTheStates/assets/114421657/e4b005df-a2ae-4bc5-9f75-e933b499bfe0)
 
 Upon opening the app, you'll see start button. Simply click the button and the game starts.
 
